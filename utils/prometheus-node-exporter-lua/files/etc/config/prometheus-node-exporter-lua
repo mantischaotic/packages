@@ -1,4 +1,4 @@
 config prometheus-node-exporter-lua 'main'
-	option listen_interface 'loopback'
+	option listen_interface 'loopback' #See contents of '/etc/config/network' on this system to determine available interface name strings.
 	option listen_ipv6 '0'
 	option listen_port '9100'
